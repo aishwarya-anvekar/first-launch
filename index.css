@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(244, 244, 244);
+}
+
+.header {
+  height: 40vh;
+  background-size: cover;
+  opacity: 0.85;
+  width: 100%;
+}
+
+.header-logo-login {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 0 2rem;
+}
+
+.header-logo-text {
+  display: flex;
+  align-items: center;
+  /* margin: 1rem 0 0 2rem; */
+}
+
+.header-logo {
+  background-color: rgb(66, 66, 240);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.header-text {
+  margin-left: 0.5rem;
+  color: rgb(66, 66, 240);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.header-content-heading {
+  font-family: Arial, serif;
+  font-size: 2.25rem;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.header-content-sub-heading {
+  font-family: Arial, serif;
+  font-size: 0.75rem;
+  color: rgb(37, 183, 209);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+
+.header-content-sign-up-btn-block {
+  width: 28%;
+}
+.header-content-sign-up-btn {
+  font-family: Arial, serif;
+  font-size: 0.6625rem;
+}
+
+.courses-heading {
+  font-family: Arial, serif;
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+.courses-quetion {
+  font-family: Arial, serif;
+  font-size: 9.1px;
+  color: rgb(64, 64, 64);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.courses {
+  margin: 5rem 0 15rem 0;
+}
+
+.courses-cards {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  padding: 0 4rem;
+  height: 20vh;
+}
+.courses-cards .card-deck {
+  position: absolute;
+  top: 50rem;
+}
+.card-deck .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20rem;
+  height: 18rem;
+}
