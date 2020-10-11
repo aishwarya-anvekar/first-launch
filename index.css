@@ -67,3 +67,24 @@ body {
   font-family: Arial, serif;
   font-size: 0.6625rem;
 }
+
+.courses-heading {
+  font-family: Arial, serif;
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+.courses-quetion {
+  font-family: Arial, serif;
+  font-size: 9.1px;
+  color: rgb(64, 64, 64);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.courses {
+  margin: 5rem 0 15rem 0;
+}
